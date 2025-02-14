@@ -25,18 +25,4 @@ const getSum = () => {
         existingTotalRow.remove();
     }
 
-    // Create new total row
-    let newRow = document.createElement("tr");
-    newRow.id = "total-row";
-
-    let newCell = document.createElement("td");
-    newCell.colSpan = 2;
-    newCell.style.fontWeight = "bold";
-    newCell.style.textAlign = "center";
-    newCell.textContent = `Total Price: ₹${total.toFixed(2)}`;
-
-    newRow.appendChild(newCell);
-
-    // Append total row
-
    
